@@ -1,0 +1,33 @@
+body{
+	height: 100vh;
+}
+
+#about{
+	font-size: 30px;
+}
+#mainDiv{
+	padding: 30px;
+	margin: 100px;
+}
+
+#background-carousel{
+	position:fixed;
+	width:100%;
+	height:100%;
+	z-index:-1;
+}
+.carousel,
+.carousel-inner {
+	width:100%;
+	height:100%;
+	z-index:0;
+	overflow:hidden;
+}
+.item {
+	width:100%;
+	height:100%;
+	background-position:center center;
+	background-size:cover;
+	z-index:0;
+}
+ 
